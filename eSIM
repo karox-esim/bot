@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Karox eSIM</title>
+
+  <meta
+    name="description"
+    content="Karox eSIM — eSIM, Telegram Premium и Stars по лучшим ценам. Выдача за минуты, поддержка на связи."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(circle at 50% 0%, #062b52 0%, #05070b 45%);
+      color: #fff;
+    }
+
+    .container {
+      width: min(600px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+
+    .card {
+      background: rgba(9, 13, 20, 0.94);
+      border: 1px solid rgba(0, 153, 255, 0.25);
+      border-radius: 28px;
+      padding: 32px 24px;
+      box-shadow: 0 25px 80px rgba(0, 119, 255, 0.12);
+    }
+
+    .logo {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 22px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 22px;
+
+      background: linear-gradient(135deg, #008cff, #0057ff);
+
+      font-size: 25px;
+      font-weight: 900;
+
+      box-shadow: 0 10px 35px rgba(0, 132, 255, 0.35);
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+
+      font-size: 42px;
+      letter-spacing: -1.5px;
+    }
+
+    .brand {
+      text-align: center;
+      color: #20a9ff;
+
+      font-size: 24px;
+      font-weight: 800;
+
+      margin-top: 4px;
+    }
+
+    .description {
+      text-align: center;
+
+      color: #aeb7c4;
+
+      font-size: 17px;
+      line-height: 1.5;
+
+      margin: 18px auto 28px;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 12px;
+    }
+
+    .button {
+      min-height: 60px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 20px;
+
+      border-radius: 16px;
+
+      text-decoration: none;
+      color: white;
+
+      font-size: 16px;
+      font-weight: 800;
+
+      background: #0787f9;
+
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+    }
+
+    .button.secondary {
+      background: #151b25;
+      border: 1px solid #293544;
+    }
+
+    .arrow {
+      font-size: 22px;
+      opacity: .7;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+
+      margin-top: 28px;
+    }
+
+    .info-item {
+      padding: 15px 8px;
+
+      text-align: center;
+
+      background: #0e141d;
+      border: 1px solid #1d2734;
+
+      border-radius: 14px;
+
+      color: #b8c1cc;
+
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .info-item strong {
+      display: block;
+
+      color: white;
+
+      font-size: 14px;
+
+      margin-bottom: 4px;
+    }
+
+    .telegram {
+      margin-top: 26px;
+
+      text-align: center;
+
+      color: #687383;
+
+      font-size: 13px;
+    }
+
+    .telegram span {
+      color: #159fff;
+      font-weight: 700;
+    }
+
+    footer {
+      text-align: center;
+
+      margin-top: 20px;
+
+      color: #4f5967;
+
+      font-size: 12px;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 20px 0;
+      }
+
+      .card {
+        padding: 28px 18px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .brand {
+        font-size: 21px;
+      }
+
+      .description {
+        font-size: 16px;
+      }
+
+      .info-item {
+        font-size: 11px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card">
+
+      <div class="logo">
+        K
+      </div>
+
+      <h1>Karox</h1>
+
+      <div class="brand">
+        eSIM
+      </div>
+
+      <p class="description">
+        💎 eSIM, Telegram Premium и Stars
+        по лучшим ценам.<br>
+        Выдача за минуты, поддержка на связи.
+      </p>
+
+      <div class="buttons">
+
+        <a
+          class="button"
+          href="https://t.me/Karox_eSIM_bot"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>💎 Получить eSIM</span>
+          <span class="arrow">→</span>
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://t.me/Karox_eSIM_bot"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Telegram Premium</span>
+          <span class="arrow">→</span>
+        </a>
+
+        <a
+          class="button secondary"
+          href="https://t.me/Karox_eSIM_bot"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Telegram Stars</span>
+          <span class="arrow">→</span>
+        </a>
+
+      </div>
+
+      <div class="info">
+
+        <div class="info-item">
+          <strong>⚡ Быстро</strong>
+          Выдача за минуты
+        </div>
+
+        <div class="info-item">
+          <strong>💎 Выгодно</strong>
+          Лучшие цены
+        </div>
+
+        <div class="info-item">
+          <strong>💬 Поддержка</strong>
+          Всегда на связи
+        </div>
+
+      </div>
+
+      <div class="telegram">
+        Покупка и получение услуг через
+        <span>@Karox_eSIM_bot</span>
+      </div>
+
+    </div>
+
+    <footer>
+      © 2026 Karox
+    </footer>
+
+  </div>
+
+</body>
+</html>
